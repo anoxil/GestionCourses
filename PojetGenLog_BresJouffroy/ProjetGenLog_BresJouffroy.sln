@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3E3235AD-6AB3-4E0B-B077-6C601CAE7D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{48FE1CD4-375F-4D03-B9EE-D87C3F1D4972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{F9CC52D3-5EB9-4AAD-B2F1-C488F359BBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsUnitDAL", "TestsUnitDAL\TestsUnitDAL.csproj", "{EA238F1B-BBEE-4CD2-8FF7-B6CE6E4E0751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsUnitDomain", "TestsUnitDomain\TestsUnitDomain.csproj", "{53DE5327-A21C-45AB-BB19-E34ED6D8027B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3235AD-6AB3-4E0B-B077-6C601CAE7D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3235AD-6AB3-4E0B-B077-6C601CAE7D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3235AD-6AB3-4E0B-B077-6C601CAE7D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3235AD-6AB3-4E0B-B077-6C601CAE7D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FE1CD4-375F-4D03-B9EE-D87C3F1D4972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FE1CD4-375F-4D03-B9EE-D87C3F1D4972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FE1CD4-375F-4D03-B9EE-D87C3F1D4972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FE1CD4-375F-4D03-B9EE-D87C3F1D4972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CC52D3-5EB9-4AAD-B2F1-C488F359BBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CC52D3-5EB9-4AAD-B2F1-C488F359BBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CC52D3-5EB9-4AAD-B2F1-C488F359BBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CC52D3-5EB9-4AAD-B2F1-C488F359BBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA238F1B-BBEE-4CD2-8FF7-B6CE6E4E0751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA238F1B-BBEE-4CD2-8FF7-B6CE6E4E0751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA238F1B-BBEE-4CD2-8FF7-B6CE6E4E0751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA238F1B-BBEE-4CD2-8FF7-B6CE6E4E0751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DE5327-A21C-45AB-BB19-E34ED6D8027B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DE5327-A21C-45AB-BB19-E34ED6D8027B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DE5327-A21C-45AB-BB19-E34ED6D8027B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DE5327-A21C-45AB-BB19-E34ED6D8027B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

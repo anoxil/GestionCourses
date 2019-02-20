@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="66e4dbd5-873d-46b5-bcfb-b71aaa085510" name="UMLCourses" linkedPackageId="f209dcd2-680a-4a9a-9be4-6203917413ee" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c6a48e86-3953-42cc-8871-37fb3a77533d">
+      <profileInstance Id="9a54457d-33ed-4197-ad26-a05990d23bed" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f9130028-d3f5-49cb-8874-8e2063d5066a">
+      <profileInstance Id="61559549-87e5-4bf9-898b-554e31f10a44" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a2a9c07b-65af-41b6-a851-fddfd51884c0" name="Coureur" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5562868d-d2d3-43cf-ab02-73bd05432f0d" />
+        <ownedAttributesInternal>
+          <property Id="ba8c98d9-9d68-4d3d-9530-c217b720dfc2" name="idCoureur" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3e79a11e-eb7b-4f5b-8d49-4fa7c12116eb" />
+          </property>
+          <property Id="0570f063-531b-44c9-beb6-d364ae78d6b8" name="numDossard" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="73b494c6-bdcb-43ce-a242-ea752b644553" />
+          </property>
+          <property Id="83f50c5a-399b-41ad-9e2b-4e0a39d9dcf2" name="prenom" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b052f70-4ac2-4aec-8b09-8ed80c8ddb7b" />
+          </property>
+          <property Id="118eec7e-0b54-4416-bdad-f307bf0a3ed6" name="mail" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d85bf65e-5bec-4bb3-9ce4-e33ef803bbec" />
+          </property>
+          <property Id="8e1a1983-e1c3-4d59-82b7-137ad7b71182" name="nom" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8912c146-dc19-442c-be64-e17142677783" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="f209dcd2-680a-4a9a-9be4-6203917413ee" name="UMLCourses">
+    <elementDefinition Id="4d00ce51-a418-4178-81e7-05b92d132199" />
+  </package>
+</logicalClassDesignerModel>
